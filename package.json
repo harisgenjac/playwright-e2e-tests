@@ -1,0 +1,19 @@
+{
+  "name": "practice-software-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Haris Genjac",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.13",
+    "playwright": "^1.51.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
