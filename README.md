@@ -18,16 +18,17 @@ Before using this project, ensure you have installed:
    cd playwright-e2e-tests
    
 2. Install dependencies:
-   npm install
-   npx playwright install
+   - npm install
+   - npx playwright install
 
 3. For headless mode:
-   npx playwright test
+   - npx playwright test
 
 4. For interactive mode (GUI):
-   npx playwright open
+   - npx playwright open
 
 ## Project structure
+```
 playwright-e2e-tests/
 │
 ├── data/                        # Test data (helperData.ts, etc.)
@@ -56,12 +57,11 @@ playwright-e2e-tests/
 ├── playwright.config.ts          # Playwright configuration file
 ├── package.json                 # Project's npm dependencies and scripts
 └── README.md                    # Project overview and setup guide
-
+```
 
 ## Author:
 Haris Genjac
-GitHub Profile: https://github.com/harisgenjac
 
-NOTE
+## NOTE
 This is an educational project and not affiliated with the official practicesoftwaretesting.com website.
 
